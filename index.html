@@ -10,9 +10,11 @@
         <h1> Eat For Lunch App</h1>
         <div ng-controller = "LunchCheckController">
 
-            <input id="lunch-menu" type = "text">
+            <input id="lunch-menu" type = "text" ng-model = "name">
             <br>
-            <p id="demo"></p>
+            <!-- <p id="demo"></p> -->
+            {{y}}
+
             <div>
                 <button ng-click = "feedkashif()">Click for eat</button>
             </div>
